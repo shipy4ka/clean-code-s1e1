@@ -5,7 +5,7 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-.aaa {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -16,31 +16,33 @@ body {
   width: 100%;
 }
 
-.aaa .more_inf {
+.header__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .aaa {
+  .header {
     text-align: center;
   }
 
 }
 
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
 
-.task {
+.add__task,
+.item__name,
+.item__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.add-section__wrapper {
   display: flex;
 }
 
